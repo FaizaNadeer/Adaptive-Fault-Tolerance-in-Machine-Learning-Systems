@@ -1,0 +1,20 @@
+{
+    "SLIGHT_DRIFT": {
+        "action": "RETRAIN"
+    },
+    "MODERATE_FAULT": {
+        "action": "FALLBACK"
+    },
+    "UNKNOWN_IMAGE": {
+        "action": "BLOCK"
+    },
+    "OVERCONFIDENCE": {
+        "action": "BLOCK"
+    },
+    "LABEL_NOISE": {
+        "action": "BLOCK"
+    },
+    "NO_ERROR": {
+        "action": "RETRAIN"
+    }
+}

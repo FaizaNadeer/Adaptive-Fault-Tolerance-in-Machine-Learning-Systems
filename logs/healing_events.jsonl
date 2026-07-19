@@ -1,0 +1,55 @@
+{"timestamp": "2026-03-02T23:55:11.272920", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"drift": false, "gpr_variance": 0.19938397701349217, "gpr_blocked": false}}
+{"timestamp": "2026-03-02T23:55:12.537645", "error_type": "SLIGHT_DRIFT", "action_result": "BLOCKED", "signals": {"drift": true, "uncertainty": 3.0860394914138607, "gpr_variance": 1.0347568519978272, "gpr_blocked": true}}
+{"timestamp": "2026-03-03T00:08:34.544205", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"drift": false, "gpr_variance": 0.19938397701349217, "gpr_blocked": false}}
+{"timestamp": "2026-03-03T00:08:36.906693", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "uncertainty": 0.3857655404151288, "gpr_variance": 1.0347568519978272, "gpr_blocked": true}}
+{"timestamp": "2026-03-03T00:09:23.799329", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"drift": false, "gpr_variance": 0.19938397701349217, "gpr_blocked": false}}
+{"timestamp": "2026-03-03T00:09:25.117637", "error_type": "MODERATE_FAULT", "action_result": "BLOCKED", "signals": {"drift": true, "uncertainty": 49.400000000000006, "gpr_variance": 1.0347568519978272, "gpr_blocked": true}}
+{"timestamp": "2026-03-03T00:11:25.074468", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"drift": false, "gpr_variance": 0.19938397701349217, "gpr_blocked": false}}
+{"timestamp": "2026-03-03T00:11:25.107265", "error_type": "MODERATE_FAULT", "action_result": "FALLBACK_TRIGGERED (Predicted Class: 1)", "signals": {"drift": true, "uncertainty": 49.400000000000006, "fallback_prediction": 1, "fallback_distances": [0.13261115239980403, 0.1329080062964496, 0.13569152640295046, 0.13652825968140814, 0.13868594958402458]}}
+{"timestamp": "2026-03-03T08:58:56.236538", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.1515441503274154, "overconfident": false}}
+{"timestamp": "2026-03-03T08:58:56.249265", "error_type": "MODERATE_FAULT", "action_result": "BLOCKED", "signals": {"drift": true, "uncertainty": 119.91183204226701, "entropy": 0.2038426410719462, "overconfident": false}}
+{"timestamp": "2026-03-03T08:59:52.574401", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.1515441503274154, "overconfident": false}}
+{"timestamp": "2026-03-03T08:59:52.929974", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 119.91183204226701, "entropy": 0.2038426410719462, "overconfident": false}}
+{"timestamp": "2026-03-03T09:27:52.987670", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false}}
+{"timestamp": "2026-03-03T09:29:35.809664", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false}}
+{"timestamp": "2026-03-03T09:29:35.814416", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 0.9973052088059653}}
+{"timestamp": "2026-03-03T09:29:35.818810", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 1.9816314250521412}}
+{"timestamp": "2026-03-03T09:29:35.822541", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 2.9773188907203703}}
+{"timestamp": "2026-03-03T09:29:35.826460", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 4.0131369189677235}}
+{"timestamp": "2026-03-03T09:30:04.939551", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"drift": false, "gpr_variance": 0.19938397701349217, "gpr_blocked": false}}
+{"timestamp": "2026-03-03T09:30:05.230453", "error_type": "MODERATE_FAULT", "action_result": "FALLBACK_TRIGGERED (Predicted Class: 1)", "signals": {"drift": true, "uncertainty": 49.400000000000006, "fallback_prediction": 1, "fallback_distances": [0.13261115239980403, 0.1329080062964496, 0.13569152640295046, 0.13652825968140814, 0.13868594958402458]}}
+{"timestamp": "2026-03-03T09:30:53.782569", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "entropy": 0.1}}
+{"timestamp": "2026-03-03T09:30:53.786684", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "entropy": 0.8}}
+{"timestamp": "2026-03-03T09:31:01.318127", "error_type": "OVERCONFIDENCE", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.0995244683145872, "overconfident": true}}
+{"timestamp": "2026-03-03T09:31:01.422854", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 88.51786215344003, "entropy": 0.3000242055141317, "overconfident": false}}
+{"timestamp": "2026-03-03T09:39:13.209488", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.9914169907569885, "ood": false}}
+{"timestamp": "2026-03-03T09:39:27.755941", "error_type": "UNKNOWN_IMAGE", "action_result": "BLOCKED", "signals": {"max_confidence": 0.48501714091648374, "ood": true}}
+{"timestamp": "2026-03-03T09:39:57.127534", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.8887819048044677, "ood": false}}
+{"timestamp": "2026-03-03T09:41:00.885687", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.7073015250732729, "ood": false}}
+{"timestamp": "2026-03-03T09:41:16.904953", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.9140938900105042, "ood": false}}
+{"timestamp": "2026-03-03T09:41:50.929496", "error_type": "UNKNOWN_IMAGE", "action_result": "BLOCKED", "signals": {"max_confidence": 0.6110076032781323, "ood": true}}
+{"timestamp": "2026-03-03T09:43:42.732502", "error_type": "UNKNOWN_IMAGE", "action_result": "BLOCKED", "signals": {"max_confidence": 0.6110076032781323, "ood": true}}
+{"timestamp": "2026-03-03T09:43:45.651940", "error_type": "UNKNOWN_IMAGE", "action_result": "BLOCKED", "signals": {"max_confidence": 0.6110076032781323, "ood": true}}
+{"timestamp": "2026-03-03T09:44:49.408180", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.9992222442776933, "ood": false}}
+{"timestamp": "2026-03-03T09:44:51.366781", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.997263549954723, "ood": false}}
+{"timestamp": "2026-03-03T09:45:08.951479", "error_type": "UNKNOWN_IMAGE", "action_result": "BLOCKED", "signals": {"max_confidence": 0.3464824954620359, "ood": true}}
+{"timestamp": "2026-03-03T09:46:04.722459", "error_type": "OVERCONFIDENCE", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.0995244683145872, "overconfident": true}}
+{"timestamp": "2026-03-03T09:46:04.882658", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 88.51786215344003, "entropy": 0.3000242055141317, "overconfident": false}}
+{"timestamp": "2026-03-03T09:49:53.850048", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.1515441503274154, "overconfident": false}}
+{"timestamp": "2026-03-03T09:49:54.083584", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 119.91183204226701, "entropy": 0.2038426410719462, "overconfident": false}}
+{"timestamp": "2026-03-03T09:52:15.238333", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.45070533487972564, "overconfident": false}}
+{"timestamp": "2026-03-03T09:52:15.488613", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 91.65950129935277, "entropy": 0.6401504168099175, "overconfident": false}}
+{"timestamp": "2026-03-03T09:56:03.878749", "error_type": "OVERCONFIDENCE", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.0995244683145872, "overconfident": true}}
+{"timestamp": "2026-03-03T09:56:03.991690", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 88.51786215344003, "entropy": 0.3000242055141317, "overconfident": false}}
+{"timestamp": "2026-03-03T10:09:56.802627", "error_type": "OVERCONFIDENCE", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.0995244683145872, "overconfident": true}}
+{"timestamp": "2026-03-03T10:09:56.949006", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 88.51786215344003, "entropy": 0.3000242055141317, "overconfident": false}}
+{"timestamp": "2026-03-03T10:11:06.194572", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.45070533487972564, "overconfident": false}}
+{"timestamp": "2026-03-03T10:11:06.334122", "error_type": "MODERATE_FAULT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 91.65950129935277, "entropy": 0.6401504168099175, "overconfident": false}}
+{"timestamp": "2026-03-03T10:13:54.892748", "error_type": "NO_ERROR", "action_result": "SUCCESS", "signals": {"max_confidence": 0.6553888916969299, "ood": false}}
+{"timestamp": "2026-03-03T10:18:14.347095", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.3512653050466946, "overconfident": false, "label_disagreement": 0.18, "label_noise": false}}
+{"timestamp": "2026-03-03T10:19:04.120190", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.3512653050466946, "overconfident": false, "label_disagreement": 0.18, "label_noise": false}}
+{"timestamp": "2026-03-03T10:19:04.127603", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 5.091311282585529, "entropy": 0.005569500809363146, "overconfident": true, "label_disagreement": 0.51, "label_noise": true}}
+{"timestamp": "2026-03-03T10:19:04.135595", "error_type": "LABEL_NOISE", "action_result": "BLOCKED", "signals": {"drift": false, "uncertainty": 0.09562220490799596, "entropy": 0.4895211981260875, "overconfident": false, "label_disagreement": 0.47, "label_noise": true}}
+{"timestamp": "2026-03-03T10:19:55.447448", "error_type": "NO_ERROR", "action_result": "BLOCKED", "signals": {"drift": false, "entropy": 0.3512653050466946, "overconfident": false, "label_disagreement": 0.18, "label_noise": false}}
+{"timestamp": "2026-03-03T10:19:55.455278", "error_type": "SLIGHT_DRIFT", "action_result": "SUCCESS", "signals": {"drift": true, "uncertainty": 5.091311282585529, "entropy": 0.005569500809363146, "overconfident": true, "label_disagreement": 0.51, "label_noise": true}}
+{"timestamp": "2026-03-03T10:19:55.458854", "error_type": "LABEL_NOISE", "action_result": "BLOCKED", "signals": {"drift": false, "uncertainty": 0.09562220490799596, "entropy": 0.4895211981260875, "overconfident": false, "label_disagreement": 0.435, "label_noise": true}}
